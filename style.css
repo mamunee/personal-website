@@ -1,43 +1,42 @@
+
 body{
     margin: 0;
-    font-family: 'Commissioner', sans-serif;
-
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 70px;
-    font-weight: bolder;
-    color: deeppink;
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+.name-highlight{
+    color: tomato;
 }
 .half-width{
     width: 40%;
     float: left;
-    padding-left: 2%;
     margin-left: 5%;
+    padding-left: 2%;
+    text-align: left;
 }
 .half-width img{
-    width: 100%;
-}
-.header{
-    background-image: url(images/header-bg.png);
-    background-repeat: no-repeat;
+    width: 60%;
 }
 section{
     height: 500px;
-    padding-bottom: 250px;
+    padding-bottom: 150px;
+    text-align: center;
 }
 .link-button{
     text-decoration: none;
-    background-color: deeppink;
+    background-image: linear-gradient(lightsalmon, tomato);
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
-    font-weight: bold;
-}
-.biography{
-    background-image: url(images/biography-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
+    font-weight: 700;
 }
 .one-third-width{
     width: 26%;
@@ -45,40 +44,30 @@ section{
     padding-left: 5%;
     margin-left: 1%;
     margin-right: 1%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .one-third-width img{
     width: 100%;
 }
-.latest-work{
-    text-align: center;
-    background-image: url(images/footer-bg.png);
-    background-repeat: no-repeat;
-    background-position: center;
 
-}
-.Color{
-    color: gray;
-}
-.footer{
-    background-image: url(images/footer-bg.png);
-    text-align: center;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-span{
-    font-size: 10px;
-}
 .message{
-    background-color: deeppink;
-    padding: 30px 40px;
-    width: 50%;
-    border-radius: 10px;
-    margin-left: 25%;
-    margin-right: 25%;
-    color: white;
-    font-weight: bold;
-
-}
-footer{
-    text-align: center;
-}
+        background-color: blue;
+        padding:5% 5%;
+        border-radius: 10px;
+        margin-left: 20%;
+        margin-right: 20%;
+        color: white;
+        font-weight: bold;
+        text-align: left;
+    
+    }
+    .link-button2{
+        text-decoration: none;
+        background-image: linear-gradient(lightsalmon, tomato);
+        padding: 10px 20px;
+        border-radius: 5px;
+        color: white;
+        font-weight: 700;
+        float: right;
+    }
