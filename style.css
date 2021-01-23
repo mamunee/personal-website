@@ -4,10 +4,11 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 h2{
     font-size: 40px;
+    text-align: left;
 }
 p{
     color: dimgray;
@@ -53,21 +54,13 @@ section{
 
 .message{
         background-color: blue;
-        padding:5% 5%;
+        border: 10px solid;
         border-radius: 10px;
-        margin-left: 20%;
-        margin-right: 20%;
+        padding: 10px 40px; 
+        margin-left: 100px;
+        margin-right: 100px;
         color: white;
         font-weight: bold;
-        text-align: left;
+        align-items: center;
+    }
     
-    }
-    .link-button2{
-        text-decoration: none;
-        background-image: linear-gradient(lightsalmon, tomato);
-        padding: 10px 20px;
-        border-radius: 5px;
-        color: white;
-        font-weight: 700;
-        float: right;
-    }
